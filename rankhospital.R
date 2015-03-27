@@ -91,7 +91,7 @@ getDataByOutcome <- function(outcome) {
   if (nrow(reducedTable) < 1) {
     stop("no rows returned")
   }
-
+  
   # return data
   reducedTable
   
@@ -179,5 +179,5 @@ getRanking <- function(data, num = "best") {
     # else num is greater/outside data rows
     return(NA)
   }
- 
+  
 }
